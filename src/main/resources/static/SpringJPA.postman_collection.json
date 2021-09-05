@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "22ff9e89-62a2-46ee-6bd7-d34591ab3bd9",
+		"name": "SpringJPA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "native/get-all-entity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/native/get-all-entity",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"native",
+						"get-all-entity"
+					]
+				},
+				"description": "dd"
+			},
+			"response": []
+		},
+		{
+			"name": "native/get-all-interface",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/native/get-all-interface",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"native",
+						"get-all-interface"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "native/find-all-jpa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/native/find-all-jpa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"native",
+						"find-all-jpa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "native/get-one-by-id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usersId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/demo/native/get-one-by-id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"native",
+						"get-one-by-id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "native/get-user-by-id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usersId\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/demo/native/get-user-by-id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"native",
+						"get-user-by-id"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hql/get-one",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/hql/get-one",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"hql",
+						"get-one"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hql/get-all-by-query",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/hql/get-all-by-query",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"hql",
+						"get-all-by-query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hql/get-all-by-criteria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/hql/get-all-by-criteria",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"hql",
+						"get-all-by-criteria"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
