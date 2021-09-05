@@ -1,6 +1,6 @@
 # Spring JPA
 
-Foobar is a Python library for dealing with word pluralization.
+Spring.jpa is a project to reseacrh JPA (Java Persistence API)
 
 ## Installation
 
