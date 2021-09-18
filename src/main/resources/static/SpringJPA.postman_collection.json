@@ -199,6 +199,28 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "hql/get-one-by-sql",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/demo/hql/get-all-by-sql",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"demo",
+						"hql",
+						"get-all-by-sql"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
