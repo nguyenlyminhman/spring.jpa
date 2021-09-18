@@ -48,4 +48,15 @@ public class User_RestController {
         }
         return rs;
     }
+    @PostMapping("/get-all-by-sql")
+    public List<User> getAllByNativeSQL(){
+        List<User> rs = null;
+        try {
+            rs = userService.getOneByNativeSQL();
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        return rs;
+    }
+
 }

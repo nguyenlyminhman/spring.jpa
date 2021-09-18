@@ -42,4 +42,9 @@ public class User_Services extends AbstractService<User, Long> {
         return rs;
     }
 
+    @Transactional(readOnly = true, propagation = Propagation.SUPPORTS)
+    public List<User> getOneByNativeSQL() {
+        List<User> rs = userDAO.getOneByNativeSQL();
+        return rs;
+    }
 }

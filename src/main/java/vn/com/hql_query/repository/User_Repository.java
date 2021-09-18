@@ -28,4 +28,11 @@ public class User_Repository extends AbstractRepository<User, Long> {
         return getCurrentSession().createQuery(cr).getResultList();
     }
 
+    public List<User> getOneByNativeSQL() {
+        String sql = "Select * from public.users where usersid=:usersid";
+        Query query = getCurrentSession().createSQLQuery(sql);
+        query.setParameter("usersid", 1);
+        List<User> rs = query.getResultList();
+        return rs;
+    }
 }
